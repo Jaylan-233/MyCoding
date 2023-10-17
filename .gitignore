@@ -1,0 +1,4 @@
+## 屏蔽所有class文件
+*.class
+## 屏蔽out目录
+out/
