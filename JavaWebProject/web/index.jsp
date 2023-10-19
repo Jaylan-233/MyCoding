@@ -18,6 +18,7 @@
       密 码:<input type="password" name="password" placeholder="请输入密码">
     <button type="submit">登录</button>
     </form>
+    <button onclick="window.location.href='html/UserRegister.html'" type="button">注册</button>
   </div>
   </body>
 </html>
