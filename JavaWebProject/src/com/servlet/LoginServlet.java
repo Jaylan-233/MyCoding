@@ -19,11 +19,9 @@ public class LoginServlet extends HttpServlet {
         String password = req.getParameter("password");
         if (UserDto.Login(username,password))
         {
-
             req.getRequestDispatcher("html/LoginSuccess.html").forward(req,resp);
         }else
         {
-
             req.getRequestDispatcher("html/LoginFailure.html").forward(req,resp);
         }
 
