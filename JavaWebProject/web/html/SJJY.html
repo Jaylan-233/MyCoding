@@ -1,45 +1,46 @@
-<html lang="en">
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--    引入CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/SJJY.css">
     <title>世纪佳缘</title>
 </head>
 <body>
-<h2 class="pink" align="center" >一分钟注册，享一辈子幸福</h2>
-<div align="center">
-    <form name="login" action="LoginServlet" target="_blank">
-        用户名:<input type="text" name="username" placeholder=""><br/><br/>
-        密 码:<input type="password" name="password" placeholder=""><br/><br/>
-        性别:<input type="radio" name="sex" id="nan"><label for="nan">男</label>
-        <input type="radio" name="sex" id="nv"><label for="nv">女</label><br/><br/>
-        生日:<select>
-        <option>--请选择年份--</option>
-        <option>2001</option>
-        <option>2002</option>
-        <option>2003</option>
-    </select>
-        <select>
-            <option>--请选择月份--</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-        </select>
-        <select>
-            <option>--请选择日--</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-        </select>
-        <br/><br/>
-        所在地区:<input type="text" name="location" placeholder=""><br/><br/>
-        婚姻状况:<input type="radio" name="marry" id="marry"><label for="marry">未婚</label>
-        <input type="radio" name="marry" id="marry"><label for="marry">离婚</label>
-        <input type="radio" name="marry" id="marry"><label for="marry">丧偶</label>
-        <br/><br/>
-        爱好:<input type="text" name="hobby" placeholder=""><br/><br/>
-        <a href="html/Register.html">我是会员，立即登录</a>
-        <button  >免费注册</button><br/><br/>
-    </form>
+<!--头部位置-->
+<div class="head">
+    <div class="logo"></div>
+    <div class="loge_text"></div>
+</div>
+<!--注册背景位置-->
+<div class="user_reg">
+
+    <div class="from_reg">
+        <form name="reg">
+            <b>
+                1分钟注册，享一辈子幸福
+            </b>
+            <hr>
+<!--            sex-->
+            <label>
+                <input type="checkbox" value="M">男
+                <input type="checkbox" capture="F"> 女
+
+            </label>
+            性别
+<!--            birthday-->
+                生日:
+
+
+        </form>
+
+    </div>
 
 </div>
+
+
 </body>
 </html>
