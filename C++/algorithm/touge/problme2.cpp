@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cstring>
+#include<algorithm>
 using namespace std;
 int getSubStringNum(string mainStr,string subStr);
 int main()
@@ -9,7 +10,7 @@ int main()
     int oN=0;
     int vN=0;
     int eN=0;
-    int account;
+    int letterNum[4]={0,0,0,0}; //注意初始化数组
     int len;
     cin >> mainStr;
     len=mainStr.length();
@@ -19,25 +20,18 @@ int main()
     {
         switch (str[index])
         {
-        case 'l': lN++;
+        case 'l': letterNum[0]++;
             break;
-        case 'o': oN++;
+        case 'o': letterNum[1]++;
             break;
-        case 'v': vN++;
+        case 'v': letterNum[2]++;
             break;
-        case 'e': eN++;
+        case 'e': letterNum[3]++;
             break;
         }
     };
-    while(lN*oN*vN*eN) // 如果由一个为0则不能组成一个完整的love
-    {
-        lN--;
-        oN--;
-        vN--;
-        eN--;
-        account++;
-    };
-    cout<<account;
-
+    cout<< letterNum[0]<<"?"<<letterNum[1];
+    // 获取所有字母中最小的那个 就是所需要的答案
+    // cout<<*min_element(letterNum,letterNum+(sizeof(letterNum)/sizeof(letterNum[0])));
     return 0;
 }
