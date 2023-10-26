@@ -30,8 +30,7 @@ int main()
             break;
         }
     };
-    cout<< letterNum[0]<<"?"<<letterNum[1];
     // 获取所有字母中最小的那个 就是所需要的答案
-    // cout<<*min_element(letterNum,letterNum+(sizeof(letterNum)/sizeof(letterNum[0])));
+    cout<<*min_element(letterNum,letterNum+(sizeof(letterNum)/sizeof(letterNum[0])));
     return 0;
 }
