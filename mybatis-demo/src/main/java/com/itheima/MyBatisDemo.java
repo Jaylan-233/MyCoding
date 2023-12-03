@@ -1,6 +1,7 @@
 package com.itheima;
 
 
+import com.itheima.mapper.UserMapper;
 import com.itheima.pojo.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -9,11 +10,8 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 
-/**
- * Mybatis 代理开发
- */
+
 public class MyBatisDemo {
 
     public static void main(String[] args) throws IOException {
@@ -24,12 +22,11 @@ public class MyBatisDemo {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         //1.2根据配置文件创建  sqlSessionFactory 对象 只创建一次
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-
         //2. 通过 sqlSessionFactory 对象 获取SqlSession对象，用它来执行sql
         SqlSession sqlSession = sqlSessionFactory.openSession();
-        //参数是命名空间.语句id(Mapper中的)
-        List<User> users = sqlSession.selectList("test.selectAll");
-        System.out.println(users);
+        //使用代理
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        System.out.println(userMapper.selectAll());
         //4. 执行完成了之后记得释放资源释放资源
         sqlSession.close();
 
