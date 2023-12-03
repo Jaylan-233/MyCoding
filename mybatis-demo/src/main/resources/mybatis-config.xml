@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!--配置信息-->
+<configuration>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <!--                数据库连接信息-->
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql:///mybatis?useSSL=false"/>
+                <property name="username" value="root"/>
+                <property name="password" value=""/>
+            </dataSource>
+        </environment>
+    </environments>
+<!--    指定SQL映射文件路径-->
+    <mappers>
+<!--        指定映射文件 可以添加多个 默认是去resource目录中查找 不用功指定绝对路径会导致找不到 -->
+        <mapper resource="UserMapper.xml"/>
+    </mappers>
+</configuration>

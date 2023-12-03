@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--根标签  名称标签参数namespace 取个名字-->
+<mapper namespace="test">
+    <!--    resultType 是要包装成的数类型 指定要封装成的类型-->
+    <!--    select id 该条语句的id -->
+    <!--    resultType 结果类型  指定结果封装成什么类型-->
+    <select id="selectAll" resultType="com.itheima.pojo.User">
+        <!--        SQL语句-->
+        select * from tb_user;
+    </select>
+</mapper>
