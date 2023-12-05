@@ -8,11 +8,14 @@
 
     <!--    指定要使用的和数据库环境 切换数据库就在这里改 指定要连接的数据库用的 前提是是又对应的数据库信息-->
     <environments default="development">
-        <!--        切换到test数据库-->
+
+        <!--        该环境的id是development-->
         <environment id="development">
+            <!--            设置事务的管理 使用JDBC -->
             <transactionManager type="JDBC"/>
+            <!--            数据源类型使用连接池 POOLED 连接池-->
             <dataSource type="POOLED">
-                <!--                数据库连接信息-->
+                <!--                数据库连接信息 -->
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql:///mybatis?useSSL=false"/>
                 <property name="username" value="root"/>
