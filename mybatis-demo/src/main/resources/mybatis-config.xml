@@ -5,7 +5,10 @@
 
 <!--配置信息-->
 <configuration>
+
+    <!--    指定要使用的和数据库环境 切换数据库就在这里改 指定要连接的数据库用的 前提是是又对应的数据库信息-->
     <environments default="development">
+        <!--        切换到test数据库-->
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
@@ -16,11 +19,22 @@
                 <property name="password" value=""/>
             </dataSource>
         </environment>
+        <!--        假设这是test环境的数据库信息 -->
+        <!--        环境id改为test-->
+        <environment id="test">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql:///mybatis?useSSL=false"/>
+                <property name="username" value="root"/>
+                <property name="password" value=""/>
+            </dataSource>
+        </environment>
     </environments>
-<!--    指定SQL映射文件路径-->
+    <!--    指定SQL映射文件路径-->
     <mappers>
-<!--        指定映射文件 可以添加多个 默认是去resource目录中查找 不用功指定绝对路径会导致找不到 -->
-<!--        <mapper resource="com/ithema/mapper/UserMapper.xml"/>-->
+        <!--        指定映射文件 可以添加多个 默认是去resource目录中查找 不用功指定绝对路径会导致找不到 -->
+        <!--        <mapper resource="com/ithema/mapper/UserMapper.xml"/>-->
         <package name="com/itheima/mapper"/>
     </mappers>
 </configuration>
