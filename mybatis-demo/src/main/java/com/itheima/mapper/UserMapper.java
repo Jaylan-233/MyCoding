@@ -12,6 +12,6 @@ import java.util.List;
  * @Version 1.0.0
  */
 public interface UserMapper {
-    //这里的方法名车要和SQL的id一样
+    //这里的方法名要和SQL的id一样
     List<User> selectAll();
 }
