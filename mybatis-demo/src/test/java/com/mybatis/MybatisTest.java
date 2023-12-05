@@ -19,15 +19,15 @@ import java.io.InputStream;
  */
 public class MybatisTest {
 
-    // 1.获取配置文件名称
-    String resource = "mybatis-config.xml";
-    // 根据配置文件名字读取配置文件 放入入流中
-    InputStream inputStream = Resources.getResourceAsStream(resource);
+    //    1.获取配置文件名称
+    String recourse = "mybatis-config.xml";
 
-    //使用输入流读入的信息建sqlSessionFactory对象
+    //   2.输入读取信息
+    InputStream inputStream = Resources.getResourceAsStream(recourse);
+
+    //   3.根据读取到的信息创建 sqlSession工厂对象
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-
-    // 通过seqSessionFactory对象的openSession方法 获取sqlSession对象
+    //   4.使用工厂对象 创建sqlSession对象
     SqlSession sqlSession = sqlSessionFactory.openSession();
 
     @Test
