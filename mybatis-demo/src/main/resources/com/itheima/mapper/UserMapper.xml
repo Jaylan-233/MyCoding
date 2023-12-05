@@ -10,7 +10,7 @@
     <!--    使用别名
     没用别名前 resultType="com.itheima.pojo.User
     使用别名后 (com.itheima.pojo.User)=(User或者user)-->
-    <select id="selectAll" resultType="UUSER">
+    <select id="selectAll" resultType="user">
         <!--        SQL语句-->
         select * from tb_user;
     </select>
