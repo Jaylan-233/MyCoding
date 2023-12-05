@@ -1,8 +1,6 @@
 package com.itheima.pojo;
 
 
-// alt + 鼠标左键 整列编辑
-
 public class User {
 
     private Integer id;
