@@ -14,4 +14,6 @@ import java.util.List;
 public interface UserMapper {
     //这里的方法名要和SQL的id一样
     List<User> selectAll();
+
+    User selectById(String id);
 }
