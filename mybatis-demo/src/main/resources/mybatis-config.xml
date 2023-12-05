@@ -10,7 +10,9 @@
     <environments default="development">
         <!--        切换到test数据库-->
         <environment id="development">
+            <!--            事务的管理方式 JDBC的事务 不用管 使用框架 框架来管理事务-->
             <transactionManager type="JDBC"/>
+<!--            数据库源设置  可以实则成使用数据库也可以不使用 -->
             <dataSource type="POOLED">
                 <!--                数据库连接信息-->
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
