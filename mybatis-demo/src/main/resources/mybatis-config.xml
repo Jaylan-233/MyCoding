@@ -5,6 +5,11 @@
 
 <!--配置信息-->
 <configuration>
+    <!--    配置别名-->
+    <typeAliases>
+        <!--        将该包下所有类配置别名 不区分大小写 别名就是类名 能在resultType中使用-->
+        <package name="com.itheima.pojo"/>
+    </typeAliases>
 
     <!--    指定要使用的和数据库环境 切换数据库就在这里改 指定要连接的数据库用的 前提是是又对应的数据库信息-->
     <environments default="development">

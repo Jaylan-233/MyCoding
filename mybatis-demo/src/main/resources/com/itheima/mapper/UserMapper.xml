@@ -7,7 +7,10 @@
 <mapper namespace="com.itheima.mapper.UserMapper">
     <!--    select id 该条语句的id -->
     <!--    resultType 结果类型  指定结果封装成什么类型-->
-    <select id="selectAll" resultType="com.itheima.pojo.User">
+    <!--    使用别名
+    没用别名前 resultType="com.itheima.pojo.User
+    使用别名后 (com.itheima.pojo.User)=(User或者user)-->
+    <select id="selectAll" resultType="User">
         <!--        SQL语句-->
         select * from tb_user;
     </select>
