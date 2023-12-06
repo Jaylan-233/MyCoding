@@ -30,9 +30,14 @@ public class MybatisTest {
     //   4.使用工厂对象 创建sqlSession对象
     SqlSession sqlSession = sqlSessionFactory.openSession();
 
+    /**
+     * @Description 查询单元测试
+     */
     @Test
     public void selectAll() {
+        //创建查询接口对象
         BrandMapper brandMapper = sqlSession.getMapper(BrandMapper.class);
+        // 执行查询所有方法并输出
         System.out.println(brandMapper.selectAll());
         // 回收资源
         sqlSession.close();
