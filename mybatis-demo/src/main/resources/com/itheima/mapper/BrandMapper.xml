@@ -3,8 +3,15 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.itheima.mapper.BrandMapper">
-<!--    使用别别名处理 字段名称不匹配问题-->
+    <!--    使用SQL片段 处理实体名称和数据库字段名不匹配问题-->
+    <!--    定义SQL片段-->
+    <sql id="brand">
+        id,brand_name as brandName,company_name as companyName,ordered,description
+    </sql>
     <select id="selectAll" resultType="com.itheima.pojo.Brand">
-        select id,brand_name as brandName,company_name as companyName,ordered,description from tb_brand;
+        select
+        <!--        引用上面定义的SQL片段 标签自闭合-->
+        <include refid="brand"/>
+        from tb_brand;
     </select>
 </mapper>
