@@ -5,6 +5,11 @@
 
 <!--配置信息-->
 <configuration>
+    <!--    CamelCase 驼峰命名
+            underscore下划线命名法
+            map映射
+            把下划线命名映射到驼峰命名
+    -->
     <settings>
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
