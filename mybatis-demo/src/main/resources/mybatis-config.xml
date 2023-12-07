@@ -5,7 +5,10 @@
 
 <!--配置信息-->
 <configuration>
-    <!--    配置别名-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
     <typeAliases>
         <!--        将该包下所有类配置别名 不区分大小写 别名就是类名 能在resultType中使用-->
         <package name="com.itheima.pojo"/>
@@ -13,6 +16,8 @@
         <!--        <typeAlias alias="UUSSEERR" type="com.itheima.pojo.User"/>-->
 
     </typeAliases>
+    <!--    驼峰转下划线形式-->
+
 
     <!--    指定要使用的和数据库环境 切换数据库就在这里改 指定要连接的数据库用的 前提是是又对应的数据库信息-->
     <environments default="development">
@@ -48,4 +53,8 @@
         <!--        <mapper resource="com/ithema/mapper/UserMapper.xml"/>-->
         <package name="com/itheima/mapper"/>
     </mappers>
+    <!--    配置别名-->
+
+
 </configuration>
+

@@ -9,9 +9,9 @@
         id,brand_name as brandName,company_name as companyName,ordered,description
     </sql>
     <select id="selectAll" resultType="com.itheima.pojo.Brand">
-        select
+        select *
         <!--        引用上面定义的SQL片段 标签自闭合-->
-        <include refid="brand"/>
+        <!--        <include refid="brand"/>-->
         from tb_brand;
     </select>
 </mapper>
