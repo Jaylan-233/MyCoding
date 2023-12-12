@@ -1,6 +1,7 @@
 package com.itheima.mapper;
 
 import com.itheima.pojo.Brand;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -13,5 +14,17 @@ import java.util.List;
  */
 public interface BrandMapper {
     List<Brand> selectAll();
+
+    Brand selectById(Integer id);
+
+    /**
+     * @param status
+     * @param companyName
+     * @param brandName
+     * @return
+     * @Description 通过条件查询
+     */
+    List<Brand> selectByCondition(@Param("status") int status, @Param("companyName") String companyName, @Param("brandName") String brandName);
+
 
 }
