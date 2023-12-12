@@ -23,20 +23,21 @@ public class UserTest {
     public UserTest() throws IOException {
     }
 
-    //    1.获取配置文件名称
+    //1.获取配置文件名称
     String resources = "mybatis-config.xml";
-    //    2.读取配置文件 从项目的recourse目录下进行读取
+    //   2.使用输入流读入内容  注意这里是=Resources 从resource 读取配置文件专用的类 参数是文件名字
     InputStream inputStream = Resources.getResourceAsStream(resources);
-    //    3.通过SqlSessionFactoryBuilder的build方法使用配置文件创建sqlSession工厂对象
+
+    //   3.使用读入的内容创建SqlSessionFactory对象
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+    //4.使用sqlSession工厂创建sqlSession对象
     SqlSession sqlSession = sqlSessionFactory.openSession();
 
-    //    使用代理开发创建对象时需要使用getMapper方法创建Mapper对象 不能直接new
+    //    创建Mapper代理对象sqlSession.getMapper方法 参数是Mapper类
     UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
 
     @Test
     public void selectAll() {
-
         List<User> userList = userMapper.selectAll();
         System.out.println(userList);
 

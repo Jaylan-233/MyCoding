@@ -15,6 +15,7 @@ import java.util.List;
 public interface UserMapper {
     //这里的方法名要和SQL的id一样
 
+
     @Select("select * from tb_user")
     List<User> selectAll();
 
