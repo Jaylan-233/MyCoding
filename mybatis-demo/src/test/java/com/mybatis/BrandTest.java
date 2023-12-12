@@ -51,13 +51,11 @@ public class BrandTest {
         brand.setBrandName("华为");
 
 //        使用Map封装参数
-        //1.创建一个HaspMap对象
-        Map<String, String> map = new HashMap<>();
-        //2.将查询键值对放入 键就是变量名 值就是查询的名称
-        map.put("status", "1");
-        map.put("brandName", "华为");
-        map.put("companyName", "华为");
-        List<Brand> brandList = brandMapper.selectByCondition(map);
+        Map<String,String> map=new HashMap<>();
+        map.put("status","1");
+        map.put("brandName","华为");
+        map.put("companyName","华为");
+        List<Brand> brandList=brandMapper.selectByCondition(map);
         System.out.println(brandList);
 
     }
