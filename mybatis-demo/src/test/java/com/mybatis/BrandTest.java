@@ -44,7 +44,15 @@ public class BrandTest {
 //        对字符串进行拼接 进行模糊查询
         brandName = "%" + brandName + "%";
         companyName = "%" + companyName + "%";
-        List<Brand> brandList = brandMapper.selectByCondition(1, companyName, brandName);
+        Brand brand = new Brand();
+        brand.setStatus(1);
+        brand.setBrandName(brandName);
+        brand.setCompanyName(companyName);
+//        将参数封装进对象中
+        List<Brand> brandList = brandMapper.selectByCondition(brand);
+
+
+
 //        这里的模糊查询不能 的%号不能写在SQL语句中 只能进行拼接
 
 

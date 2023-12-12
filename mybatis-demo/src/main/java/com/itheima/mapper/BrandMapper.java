@@ -24,7 +24,9 @@ public interface BrandMapper {
      * @return
      * @Description 通过条件查询
      */
-    List<Brand> selectByCondition(@Param("status") int status, @Param("companyName") String companyName, @Param("brandName") String brandName);
+//    List<Brand> selectByCondition(@Param("status") int status, @Param("companyName") String companyName, @Param("brandName") String brandName);
+//    使用对象进行查询
+    List<Brand> selectByCondition(Brand brand);
 
 
 }
