@@ -1,9 +1,9 @@
 package com.itheima.mapper;
 
 import com.itheima.pojo.Brand;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Classname BrandMapper.xml
@@ -17,10 +17,9 @@ public interface BrandMapper {
 
     Brand selectById(Integer id);
 
-
     //    List<Brand> selectByCondition(@Param("status") int status, @Param("companyName") String companyName, @Param("brandName") String brandName);
 //    使用对象进行查询
-    List<Brand> selectByCondition(Brand brand);
+    List<Brand> selectByCondition(Map map);
 
 
 }
