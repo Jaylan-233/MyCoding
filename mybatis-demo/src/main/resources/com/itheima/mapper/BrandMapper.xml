@@ -22,9 +22,10 @@
         select * from tb_brand where id = #{id}
     </select>
     <select id="selectByCondition" resultType="com.itheima.pojo.Brand">
+        <!--        使用 CONCAT('%',条件,'%')来处理%加引号问题-->
         select * from tb_brand
         where status=#{status}
-        and company_name like #{companyName}
-        and brand_name like #{brandName}
+        and company_name like CONCAT('%',#{companyName},'%')
+        and brand_name like CONCAT('%',#{brandName},'%')
     </select>
 </mapper>

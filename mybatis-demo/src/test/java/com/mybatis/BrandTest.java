@@ -42,13 +42,11 @@ public class BrandTest {
         String companyName = "华为";
         String brandName = "华为";
 //        对字符串进行拼接 进行模糊查询
-        brandName = "%" + brandName + "%";
-        companyName = "%" + companyName + "%";
         Brand brand = new Brand();
+
         brand.setStatus(1);
-//        因为是模糊查询所以记得拼接%
-        brand.setCompanyName("%华为%");
-        brand.setBrandName("%华为%");
+        brand.setCompanyName("华为");
+        brand.setBrandName("华为");
         List<Brand> brandList = brandMapper.selectByCondition(brand);
         System.out.println(brandList);
 
