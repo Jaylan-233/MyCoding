@@ -46,16 +46,10 @@ public class BrandTest {
         companyName = "%" + companyName + "%";
         Brand brand = new Brand();
         brand.setStatus(1);
-        brand.setBrandName(brandName);
-        brand.setCompanyName(companyName);
-//        将参数封装进对象中
+//        因为是模糊查询所以记得拼接%
+        brand.setCompanyName("%华为%");
+        brand.setBrandName("%华为%");
         List<Brand> brandList = brandMapper.selectByCondition(brand);
-
-
-
-//        这里的模糊查询不能 的%号不能写在SQL语句中 只能进行拼接
-
-
         System.out.println(brandList);
 
     }
