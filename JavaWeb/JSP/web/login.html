@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+
+</head>
+<body>
+<form action="testJSP01">
+<!--    把内容交给testJSP01这个Servlet-->
+<!--    <form action="testJSP01">    http://localhost:8081/JSP/testJSP01  自带当前模块名称 推荐的写法-->
+<!--    <form action="/testJSP01">    http://localhost:8081/testJSP01  会少了当前模块名称  -->
+    <label><!--使用label表标签获得更好的交互效果 点击文字也能似的输入框获得焦点-->
+        <!--        一个label只能作用于一个 -->
+        username:<input type="text" name="username">
+    </label>
+    <label>
+        password:<input type="password" name="password">
+    </label>
+    <button type="submit" value="">注册</button>
+<!--        value表示按钮上显示的值 设类别为提交类型 表示提交表单的内容到目表servlet-->
+</form>
+</body>
+</html>
