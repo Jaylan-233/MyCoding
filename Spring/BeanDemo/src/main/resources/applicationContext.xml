@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="org.jaylan.relative.Student">
+
+    </bean>
+
+
+    <bean id="clazz" class="org.jaylan.relative.Clazz">
+        <!--        设置班级名称name属性的值-->
+        <property name="clazzName" value="Class_1"> </property>
+        <!--设置 student属性的值 引用另外一个bean-->
+        <property name="student" ref="student"> </property> <!--引用了Student这个实例 不再用value -->
+        <!--        设置倍引用对象的属性-->
+        <property name="student.name" value="Jaylan"> </property>
+    </bean>
+
+    <!--    list关系-->
+    <bean id="order_1" class="org.jaylan.list.Order">
+        <property name="id" value="100"> </property>
+        <property name="orderName" value="Jyalan's Order"> </property>
+    </bean>
+    <bean id="order_2" class="org.jaylan.list.Order">
+        <property name="id" value="100"> </property>
+        <property name="orderName" value="Jyalan's Order"> </property>
+    </bean>
+
+
+    <bean id="vip" class="org.jaylan.list.Vip">
+<!--        这个成员变量是个List-->
+        <property name="orderList">
+            <list>
+<!--                自闭和 ref 没有子属性-->
+                <ref bean="order_1"/>
+                <ref bean="order_2"/>
+            </list>
+        </property>
+    </bean>
+
+
+</beans>

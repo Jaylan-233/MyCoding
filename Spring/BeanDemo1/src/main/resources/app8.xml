@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    Bean生命周期 示例-->
+<!--    no BeanName 找不到对应BeanID-->
+<!--    init-method="initBean" 初始化时调度的方法-->
+<!--    destroy-method="destroyBean" 用来销毁的的 但是不好调用共  -->
+    <bean id="beanLife" class="org.jaylan.beanlife.BeanLife" init-method="initBean"  destroy-method="destroyBean">
+
+    </bean>
+
+</beans>

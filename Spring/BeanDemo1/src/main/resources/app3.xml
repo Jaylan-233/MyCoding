@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    构造方法实例化配置文件-->
+<!--    特殊的是factory-method="createInstance"-->
+<!--    创建对象用的 Spring帮忙调用-->
+    <bean id="beanStaticFactory" class="org.jaylan.instance2.BeanStaticFactory" factory-method="createInstance">
+    </bean>
+</beans>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="org.example.dao.UserDao" >
+
+    </bean>
+
+<!--    autowire="byName"  自动创建关联的对象？ 对象中有对象 要把倍调用的对象 -->
+<!--autowire="byName" 自动装配
+找id名称和Set方法的名称一样 -->
+<!--   autowire="byType" 按照类型自动装配   -->
+    <bean id="userService" class="org.example.service.UserService" autowire="byName">
+
+    </bean>
+
+</beans>
