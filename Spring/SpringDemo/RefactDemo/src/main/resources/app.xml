@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+
+<!--</beans>-->
+<!--纯纯手写 不需要之前的 这里全是自定义的没有任何约束 (上面这些的)-->
+<!--这里知识需要类型什么 的不需要导入任何规范 只要写标签和id就行了
+-->
+<beans>
+<bean id="user" classpath="">
+
+</bean>
+</beans>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    指定初始化方法 init-method="init"-->
+<!--    指定销毁方法 destroy-method="destroy"-->
+    <bean id="user" class="org.jaylan.beanlife.User" init-method="init" destroy-method="destroy" >
+<!--        设置属性值 Bean赋值阶段-->
+    <property name="name" value="Jaylan"/>
+        <property name="size" value="20"/>
+    </bean>
+
+
+<!--    实例化 -->
+    <bean id="log" class="org.jaylan.beanlife.LogBeanPost">
+
+    </bean>
+</beans>
