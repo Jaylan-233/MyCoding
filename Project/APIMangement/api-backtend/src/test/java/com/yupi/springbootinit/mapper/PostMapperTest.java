@@ -1,6 +1,6 @@
-package com.yupi.springbootinit.mapper;
+package com.jaylan.apiopenplatform.mapper;
 
-import com.yupi.springbootinit.model.entity.Post;
+import com.jaylan.apiopenplatform.model.entity.Post;
 import java.util.Date;
 import java.util.List;
 import javax.annotation.Resource;
