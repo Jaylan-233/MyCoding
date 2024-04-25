@@ -1,4 +1,4 @@
-package com.jaylan.springbootinit.controller;
+package com.jaylan.apiopenplatform.controller;
 
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;

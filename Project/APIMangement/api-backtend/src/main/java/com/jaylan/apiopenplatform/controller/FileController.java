@@ -1,4 +1,4 @@
-package com.jaylan.springbootinit.controller;
+package com.jaylan.apiopenplatform.controller;
 
 import cn.hutool.core.io.FileUtil;
 import com.jaylan.apiopenplatform.common.BaseResponse;
