@@ -1,6 +1,6 @@
-package generator.service;
+package com.jaylan.apiopenplatform.service;
 
-import generator.domain.InterfaceInfo;
+import com.jaylan.apiopenplatform.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
