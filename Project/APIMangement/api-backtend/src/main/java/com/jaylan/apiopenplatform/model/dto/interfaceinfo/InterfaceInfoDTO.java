@@ -1,5 +1,6 @@
 package com.jaylan.apiopenplatform.model.dto.interfaceinfo;
 
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.jaylan.apiopenplatform.model.entity.Post;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
@@ -81,15 +82,16 @@ public class InterfaceInfoDTO implements Serializable {
     private Date updateTime;
 
     /**
-     * 是否删除
+     * 是否删除(逻辑删除)
      */
+    @TableLogic
     private Integer isDelete;
 
     private static final long serialVersionUID = 1L;
 
     /**
      * 对象转包装类
-     * TODO:待确认
+     *
      *
      * @param post
      * @return postEsDTO
