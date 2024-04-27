@@ -1,7 +1,6 @@
 package com.jaylan.apiopenplatform.model.dto.interfaceinfo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -47,11 +46,6 @@ public class InterfaceInfoAddRequest implements Serializable {
      */
     private String method;
 
-//    主键后台自动生成 不需要用户输入
-//    创建人 自动获取当登录用户 不需要输入
-//    创建时间 自动生成 不需要输入
-//    更新时间 自动生成 不需要输入
-//    是否删除(0-未删除 1-已删除) 不要求输入
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
