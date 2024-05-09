@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="164c0f13-9057-4b47-8059-76abe874866d" name="Changes" comment="Chore :删除无用注释">
+      <change afterPath="$PROJECT_DIR$/../DB/.idea/DB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaylan/apiopenplatform/model/dto/interfaceinfo/InterfaceInfoEditRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaylan/apiopenplatform/model/vo/InterfaceInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/JDBCDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/JDBCDemo/src/main/java/org/jaylan/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/JDBCDemo/src/main/java/org/jaylan/pojo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/JDBCDemo/src/main/java/org/jaylan/pojo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/JDBCDemo/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/JDBCDemo/src/test/java/org/jaylan/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaylan/apiopenplatform/controller/InterfaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaylan/apiopenplatform/controller/InterfaceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaylan/apiopenplatform/service/InterfaceInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaylan/apiopenplatform/service/InterfaceInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaylan/apiopenplatform/service/impl/InterfaceInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaylan/apiopenplatform/service/impl/InterfaceInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/API管理平台.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/API管理平台.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/Writerside/topics/第一集.md" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/Writerside/topics/第一集.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/SpringDemo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/SpringDemo/AOPDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/AOPDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Spring/SpringDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Spring/SpringDemo/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\DevEnv\Java\maven\mvn-reg" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="userSettingsFile" value="E:\DevEnv\Java\maven\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fSWgBjnYNdVFG97hMRQvcdvusx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MainApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/MyCoding/Project/APIMangement/api-backtend/src/main/java/com/jaylan/apiopenplatform/model/dto/interfaceinfo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyCoding\Project\APIMangement\api-backtend\src\main\java\com\jaylan\apiopenplatform\model\dto\interfaceinfo" />
+      <recent name="E:\MyCoding\Project\APIMangement\api-backtend\src\main\java\com\jaylan\apiopenplatform" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jaylan.apiopenplatform.model.dto.interfaceinfo" />
+      <recent name="com.jaylan.apiopenplatform.model.vo" />
+      <recent name="com.jaylan.apiopenplatform.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="springboot-init" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jaylan.apiopenplatform.MainApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jaylan.apiopenplatform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="164c0f13-9057-4b47-8059-76abe874866d" name="Changes" comment="" />
+      <created>1713795068569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713795068569</updated>
+      <workItem from="1713795070408" duration="2000" />
+      <workItem from="1713884564501" duration="2714000" />
+      <workItem from="1713934432004" duration="4102000" />
+      <workItem from="1714031069437" duration="837000" />
+      <workItem from="1714032041607" duration="10000" />
+      <workItem from="1714032147472" duration="2218000" />
+      <workItem from="1714034376653" duration="60000" />
+      <workItem from="1714034449453" duration="2357000" />
+      <workItem from="1714104317631" duration="2780000" />
+      <workItem from="1714224278900" duration="2289000" />
+      <workItem from="1714226603795" duration="2195000" />
+      <workItem from="1715227849092" duration="1032000" />
+    </task>
+    <task id="LOCAL-00001" summary="Init:项目模板">
+      <option name="closed" value="true" />
+      <created>1713885872220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713885872220</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Init:项目模板">
+      <option name="closed" value="true" />
+      <created>1713885880721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713885880721</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Init:项目模板">
+      <option name="closed" value="true" />
+      <created>1713886794926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713886794926</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Chore:修改启动提示banner">
+      <option name="closed" value="true" />
+      <created>1713934690768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713934690768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Chore:删除信息">
+      <option name="closed" value="true" />
+      <created>1713934854102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713934854102</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat:新增笔记">
+      <option name="closed" value="true" />
+      <created>1713934903158</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713934903158</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Chore:删除重复代码">
+      <option name="closed" value="true" />
+      <created>1713935056855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713935056855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Chore:修改包名">
+      <option name="closed" value="true" />
+      <created>1713935794201</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713935794201</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Chore:删除信息">
+      <option name="closed" value="true" />
+      <created>1713935857646</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713935857646</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Chore:引入mybatis-generator插件">
+      <option name="closed" value="true" />
+      <created>1714034472974</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714034472974</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Chore:修正生产环境数据库配置信息">
+      <option name="closed" value="true" />
+      <created>1714034523153</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714034523153</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Chore:修正测试环境数据库配置信息">
+      <option name="closed" value="true" />
+      <created>1714034532925</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714034532925</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feat:使用MybatisX生成Interface业务代码">
+      <option name="closed" value="true" />
+      <created>1714035282874</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714035282874</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Chore:Mybatis生成代码合并到业务代码中">
+      <option name="closed" value="true" />
+      <created>1714036068153</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714036068153</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fix:修正包名">
+      <option name="closed" value="true" />
+      <created>1714036263704</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714036263704</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Feat:新增接口Controller">
+      <option name="closed" value="true" />
+      <created>1714104605967</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714104605967</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Feat:新增接口信息ES包装类">
+      <option name="closed" value="true" />
+      <created>1714106064307</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714106064307</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Chore: 完善注释">
+      <option name="closed" value="true" />
+      <created>1714106493613</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714106493613</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Chore :isDelete增加@TableLogic注解">
+      <option name="closed" value="true" />
+      <created>1714106586972</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714106586972</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Feat: 接口信息(新增)">
+      <option name="closed" value="true" />
+      <created>1714107098441</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714107098441</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Feat: 接口信息实体(查询)">
+      <option name="closed" value="true" />
+      <created>1714224885449</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1714224885449</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Feat: 接口信息实体(更新)">
+      <option name="closed" value="true" />
+      <created>1714225082142</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714225082142</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Chore :删除无用注释">
+      <option name="closed" value="true" />
+      <created>1714225112250</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1714225112250</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init:项目模板" />
+    <MESSAGE value="Chore:修改启动提示banner" />
+    <MESSAGE value="Feat:新增笔记" />
+    <MESSAGE value="Chore:删除重复代码" />
+    <MESSAGE value="Chore:修改包名" />
+    <MESSAGE value="Chore:删除信息" />
+    <MESSAGE value="Chore:引入mybatis-generator插件" />
+    <MESSAGE value="Chore:修正生产环境数据库配置信息" />
+    <MESSAGE value="Chore:修正测试环境数据库配置信息" />
+    <MESSAGE value="Feat:使用MybatisX生成Interface业务代码" />
+    <MESSAGE value="Chore:Mybatis生成代码合并到业务代码中" />
+    <MESSAGE value="Fix:修正包名" />
+    <MESSAGE value="Feat:新增接口Controller" />
+    <MESSAGE value="Feat:新增接口信息ES包装类" />
+    <MESSAGE value="Chore: 完善注释" />
+    <MESSAGE value="Chore :isDelete增加@TableLogic注解" />
+    <MESSAGE value="Feat: 接口信息(新增)" />
+    <MESSAGE value="Feat: 接口信息实体(查询)" />
+    <MESSAGE value="Feat: 接口信息实体(更新)" />
+    <MESSAGE value="Chore :删除无用注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chore :删除无用注释" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
