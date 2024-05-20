@@ -14,6 +14,7 @@
         <module>AOPDemo</module>
         <module>Dynamic</module>
         <module>JDBCDemo</module>
+        <module>MybatisDemo</module>
     </modules>
 
 
